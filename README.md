@@ -1,15 +1,15 @@
 # socketio
 
 npm init -y
-#version 2.3.0 kullanıyoruz çünkü php'de version 3 kütüphanesini bulamadım :/
+# version 2.3.0 kullanıyoruz çünkü php'de version 3 kütüphanesini bulamadım :/
 npm install socket.io@2.3.0
 npm install pm2 -g
 
-#socket.io kütüphanesini composer ile çağırıyoruz.
+# socket.io kütüphanesini composer ile çağırıyoruz.
 composer require wisembly/elephant.io
 
-#server'ı başlat
+# server'ı başlat
 pm2 start app.js
 
-#logları gör
+# logları gör
 pm2 logs
